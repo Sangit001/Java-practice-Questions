@@ -149,3 +149,51 @@ public static void main(String[] args) {
 }
 }
  */
+
+/*Write a Java program to create a class called "Circle" with a radius attribute.
+ You can access and modify this attribute. Calculate the area and circumference of the circle.
+ */
+
+/*
+class Circle{
+    private double radius;
+    final float PI = 22/7f;
+    Circle(double radius){
+        this.radius = radius;
+    }
+    public double getRadius(){
+        return radius;
+    }
+    public void setRadius(double radius){
+        this.radius = radius;
+    }
+    public double getArea(){
+        return (PI*radius*radius);
+    }
+    public double getCircumference(){
+        return 2*(PI*radius);
+    }
+}
+public class Questions
+{
+    public static void main(String[] args)
+    {
+
+        double r = 4;
+        Circle c = new Circle(r);
+        c.getArea();
+        c.getCircumference();
+        System.out.println("The area of circle is: "+ c.getArea());
+        System.out.println("The area of circumference is: "+c.getCircumference());
+
+
+        r = 99;
+         c.setRadius(r);
+        System.out.println("The area of circle is: "+ c.getArea());
+        System.out.println("The area of circumference is: "+c.getCircumference());
+
+    }
+}
+
+ */
+
